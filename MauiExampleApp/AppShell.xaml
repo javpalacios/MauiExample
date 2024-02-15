@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell x:Class="MauiExampleApp.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:MauiExampleApp"
+       xmlns:views="clr-namespace:MauiExampleApp.Views"
+       Title="ExampleMauiApp"
+       Shell.FlyoutBehavior="Disabled">
+    <ShellContent Title="Home"
+                  ContentTemplate="{DataTemplate views:HomePage}"
+                  Route="home" />
+    <ShellContent Title="About"
+                  ContentTemplate="{DataTemplate views:AboutPage}"
+                  Route="about" />
+</Shell>
