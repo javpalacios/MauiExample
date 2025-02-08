@@ -4,7 +4,7 @@ using MauiExampleApp.Models;
 using MauiExampleApp.Services;
 using System.Collections.ObjectModel;
 
-namespace MauiExampleApp;
+namespace MauiExampleApp.PageModels;
 
 public partial class HomeViewModel : ObservableObject
 {

@@ -1,10 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage x:Class="MauiExampleApp.Views.DeatailPage"
+<ContentPage x:Class="MauiExampleApp.Pages.DeatailPage"
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pm="clr-namespace:MauiExampleApp.PageModels"
              xmlns:local="clr-namespace:MauiExampleApp">
     <ScrollView VerticalOptions="Center">
-        <VerticalStackLayout>
+        <VerticalStackLayout HorizontalOptions="Center">
             <Label Text="Navegación por parámetros mediante datos primitivos:" />
             <Label SemanticProperties.HeadingLevel="Level1"
                    Style="{StaticResource Headline}"

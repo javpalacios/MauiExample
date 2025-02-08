@@ -1,8 +1,6 @@
-﻿using CommunityToolkit.Mvvm.ComponentModel;
-using MauiExampleApp.Models;
-using System.Collections.ObjectModel;
+﻿using MauiExampleApp.PageModels;
 
-namespace MauiExampleApp.Views;
+namespace MauiExampleApp.Pages;
 
 public partial class HomePage : ContentPage
 {

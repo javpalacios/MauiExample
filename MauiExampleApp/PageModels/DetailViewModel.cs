@@ -1,9 +1,9 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using MauiExampleApp.Models;
 
-namespace MauiExampleApp;
-// Navegación por parámetro Query Id, Navegación por objeto Query Cosa
-//[QueryProperty(nameof(Id), "id")]
+namespace MauiExampleApp.PageModels;
+
+
 [QueryProperty(nameof(Cosa), nameof(Cosa))]
 public partial class DetailViewModel : ObservableObject
 {

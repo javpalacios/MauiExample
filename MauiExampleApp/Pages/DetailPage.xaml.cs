@@ -1,4 +1,6 @@
-﻿namespace MauiExampleApp.Views;
+﻿using MauiExampleApp.PageModels;
+
+namespace MauiExampleApp.Pages;
 
 public partial class DeatailPage : ContentPage
 {

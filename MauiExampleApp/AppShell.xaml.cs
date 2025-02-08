@@ -1,4 +1,4 @@
-﻿using MauiExampleApp.Views;
+﻿using MauiExampleApp.Pages;
 
 namespace MauiExampleApp;
 

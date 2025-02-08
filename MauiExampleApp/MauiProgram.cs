@@ -1,6 +1,7 @@
 ﻿using MauiExampleApp.Services;
-using MauiExampleApp.Views;
+using MauiExampleApp.Pages;
 using Microsoft.Extensions.Logging;
+using MauiExampleApp.PageModels;
 
 namespace MauiExampleApp;
 

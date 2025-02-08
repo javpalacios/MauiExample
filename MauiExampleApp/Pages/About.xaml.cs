@@ -1,4 +1,4 @@
-﻿namespace MauiExampleApp.Views;
+﻿namespace MauiExampleApp.Pages;
 
 public partial class AboutPage : ContentPage
 {
