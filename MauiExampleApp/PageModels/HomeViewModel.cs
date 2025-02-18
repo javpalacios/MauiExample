@@ -35,7 +35,7 @@ public partial class HomeViewModel : ObservableObject
         // Navegación por parámetros mediante datos primitivos (si la página a navegar va a obtener los datos a partir de una nueva consulta)
         //await Shell.Current.GoToAsync($"details?id={SelectedCosa.Id}");
 
-        // Navegación por objetos de uso múltiple (si la página a navegar es una página intermedia)
+        //// Navegación por objetos de uso múltiple (si la página a navegar es una página intermedia)
         //await Shell.Current.GoToAsync("details", new Dictionary<string, object> { { "Cosa", SelectedCosa } });
 
         // Navegación por objetos de uso único (si la página a navegar es una página final)
